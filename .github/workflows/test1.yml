@@ -1,0 +1,9 @@
+name: learn-github-actions1
+on: [push]
+jobs:
+  just-ls-command:
+    runs-on: self-hosted
+    steps:
+      - run: ls -l
+      - run: hostname
+#
